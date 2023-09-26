@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>OKRs</name>
+    <description>Aplicativo para estudos, com foco na metodologia de OKRs.</description>
+    <author email="lgrison@gmail.com" href="http://www.grisondesign.com.br/">
+        Leandro Grison
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="StatusBarBackgroundColor" value="#283593" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    
+    <platform name="android">
+
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/android/splashscreen.png" />
+        <preference name="SplashScreenDelay" value="1000" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#FF6F00" />
+
+        <icon src="res/android/mipmap-ldpi/ic_launcher_round.png" density="ldpi" />
+        <icon src="res/android/mipmap-mdpi/ic_launcher_round.png" density="mdpi" />
+        <icon src="res/android/mipmap-hdpi/ic_launcher_round.png" density="hdpi" />
+        <icon src="res/android/mipmap-xhdpi/ic_launcher_round.png" density="xhdpi" />
+        <icon src="res/android/mipmap-xxhdpi/ic_launcher_round.png" density="xxhdpi" />
+        <icon src="res/android/mipmap-xxxhdpi/ic_launcher_round.png" density="xxxhdpi" />
+
+    </platform>
+
+</widget>
